@@ -1,10 +1,11 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { ControlFlow } from './control-flow/control-flow';
+import { ForLoop } from './for-loop/for-loop';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet,ControlFlow],
+  imports: [RouterOutlet,ControlFlow,ForLoop],
   templateUrl: './app.html',
   styleUrl: './app.css',
 })
