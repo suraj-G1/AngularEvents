@@ -4,8 +4,8 @@ import { Component } from '@angular/core';
   selector: 'app-for-loop',
   imports: [],
   templateUrl: './for-loop.html',
-  styleUrl: './for-loop.css'
+  styleUrl: './for-loop.css',
 })
 export class ForLoop {
-
+  users = ['Suraj', 'Gund', 'Ladoo', 'Golu', 'Molu'];
 }
